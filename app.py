@@ -123,7 +123,7 @@ model, tokenizer, zero_shot, all_chunks, thresholds, label_names, embedder, fais
 
 gemini_key = os.environ.get("GEMINI_API_KEY") or st.secrets.get("GEMINI_API_KEY", None)
 genai.configure(api_key=gemini_key)
-llm = genai.GenerativeModel(""gemini-3.6-flash")
+llm = genai.GenerativeModel("gemini-3.6-flash")
 
 
 def predict_emotions(text):
