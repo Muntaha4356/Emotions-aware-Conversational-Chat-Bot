@@ -1,0 +1,9 @@
+streamlit
+transformers
+torch
+sentence-transformers
+rank_bm25
+faiss-cpu
+huggingface_hub
+google-generativeai
+numpy
